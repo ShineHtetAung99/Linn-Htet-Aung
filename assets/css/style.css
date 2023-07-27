@@ -856,6 +856,18 @@ section {
   padding-bottom: 130px;
 }
 
+@media (max-width: 1199px) {
+  .contact {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact .info {
+    margin-left: 0px;
+  }
+}
+
 .contact .info {
   padding: 30px;
   background: #fff;
